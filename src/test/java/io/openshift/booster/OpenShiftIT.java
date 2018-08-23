@@ -40,7 +40,7 @@ public class OpenShiftIT {
   public void testThatWeRecover() throws MalformedURLException {
     await().atMost(5, TimeUnit.MINUTES).catchUncaughtExceptions().until(() -> {
       try {
-        get("/api/greeting").then().body("content", equalTo("Hello, World!"));
+        get("/api/greeting").then().body("content", equalTo("¡Hola!, World!"));
         return true;
       } catch (Exception e) {
         return false;
