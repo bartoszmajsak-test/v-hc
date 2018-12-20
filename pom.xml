@@ -13,7 +13,7 @@
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>Vert.x - Health Checks</name>
+  <name>Vert.x - Health Checaks</name>
   <description>Demonstrates health check probes using Vert.x</description>
 
   <properties>
